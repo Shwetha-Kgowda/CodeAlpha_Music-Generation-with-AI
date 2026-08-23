@@ -29,3 +29,23 @@ midi_songs/
 └── song4.mid
 
 You should ideally use 50–100+ MIDI files for better results.
+
+
+How to run
+1. Open VS Code terminal
+cd Music-Generation-AI
+2. Train the AI model
+python train_music_model.py
+
+After training, these files will be created:
+
+notes.pkl
+music_model.h5
+3. Generate music
+python generate_music.py
+
+Output:
+
+generated_music.mid
+
+You can open the generated MIDI file using VLC, MuseScore, GarageBand, or any MIDI player.
